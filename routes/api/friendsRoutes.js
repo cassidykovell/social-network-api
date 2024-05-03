@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { addFriend, removeFriend } = require('../controllers/friendsController');
+const { addFriend, removeFriend } = require('../../controllers/friendsController');
 
 router.post('/api/users/:userId/friends/:friendId', addFriend);
 
